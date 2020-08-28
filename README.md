@@ -1,6 +1,6 @@
 # remove-sequences
 
-It is sometimes helpful for purposes of comparison to generate sequence files that complement other sequences files. A complement is a term from [set theory](). Briefly, the complement of set A is will be a set B, such that all of the elements in set B are all of the elements in the sample space that are NOT included in set A.
+It is sometimes helpful, for purposes of comparison, to generate sequence files that complement other sequences files. Complement, in this context, is a term from [set theory](https://en.wikipedia.org/wiki/Complement_%28set_theory%29). Briefly, the complement of set A is will be a set B, such that all of the elements in set B are all of the elements in the sample space that are NOT included in set A.
 
 ## INPUT
 
@@ -22,11 +22,11 @@ will take the sequences in `example_sequences.fasta`, remove the sequences in li
 
 ## DEPENDENCIES
 
-I wrote this script in python 3 and it requires Biopython to run. Install Biopython with:
+I wrote this script in python v3.8 and it requires Biopython to run. Install Biopython with:
 
 `pip install biopython`
 
 ## References
 
-The code in this script was modified from [this BioStars post]().
+The code in this script was modified from [this BioStars post](https://www.biostars.org/p/4881/).
 
